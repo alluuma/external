@@ -3,25 +3,25 @@ pipeline
 agent any
 stages
 {
- stages("commit")
+ stage("commit")
 {
 steps{
 echo "Commited the project"
 }
 }
- stages("build")
+ stage("build")
 {
 steps{
 echo "build the project"
 }
 }
- stages("test")
+ stage("test")
 {
 steps{
 echo "test the project"
 }
 }
- stages("release")
+ stage("release")
 {
 steps{
 echo "release the project"
